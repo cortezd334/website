@@ -6,14 +6,14 @@ import Projects from './Components/Projects'
 import Resume from './Components/Resume'
 import Blog from './Components/Blog'
 import Contact from './Components/Contact'
-import circle from './images/circle.png'
+// import final from './images/final.png'
 
 function App() {
   return (
     <>
     <Router>
       <div id='nav'>
-        <NavLink to='/' exact><img src={circle} alt='home' height='50' width='auto'/></NavLink>
+        <NavLink to='/' exact><img src={process.env.PUBLIC_URL + '/final.png'} alt='home' height='50' width='auto'/></NavLink>
         <NavLink to='/about'>About Me</NavLink>
         <NavLink to='/projects' exact>Projects</NavLink>
         <NavLink to='/resume' exact>Resume</NavLink>
