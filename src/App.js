@@ -13,12 +13,13 @@ function App() {
     <>
     <Router>
       <div id='nav'>
-        <NavLink to='/' exact><img src={process.env.PUBLIC_URL + '/final.png'} alt='home' height='50' width='auto'/></NavLink>
-        <NavLink to='/about'>About Me</NavLink>
+        <NavLink to='/' exact className='inline-block'><img src={process.env.PUBLIC_URL + '/final.png'} alt='home' height='50' width='auto'/></NavLink>
+        <h1 className='inline-block marg'>Danira Cortez</h1>
+        {/* <NavLink to='/about'>About Me</NavLink>
         <NavLink to='/projects' exact>Projects</NavLink>
         <NavLink to='/resume' exact>Resume</NavLink>
         <NavLink to='/blog' exact>Blog</NavLink>
-        <NavLink to='/contact' exact>Contact</NavLink>
+        <NavLink to='/contact' exact>Contact</NavLink> */}
       </div>
       <Switch>
         <Route exact path='/'>

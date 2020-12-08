@@ -8,8 +8,10 @@ export default function Home() {
     return(
         <>
             <div className='construct'>
-                <h1>Under Construction</h1>
-            {/* </div> */}
+                <h1 id='uc'>Under Construction</h1>
+                <div className='progress'>
+                    <div id='bar'>15%</div>
+                </div>
                 <div className='icons'>
                     <a href='https://www.linkedin.com/in/daniracortez/' classname='icon' rel="noreferrer" target='_blank'><img src={linkedin} alt='Linkedin'/></a>
                     <a href='https://github.com/cortezd334' classname='icon' rel="noreferrer" target='_blank'><img src={github} alt='Github'/></a>
