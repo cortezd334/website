@@ -9,6 +9,7 @@ export default function Home() {
         <>
             <div className='construct'>
                 <h1 id='uc'>Under Construction</h1>
+                <h3 id='sub'>Working hard to bring you this website. Please check back soon!</h3>
                 <div className='progress'>
                     <div id='bar'>15%</div>
                 </div>
