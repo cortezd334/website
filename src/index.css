@@ -1,4 +1,22 @@
+body{
+  background-image: url('images/calgary.png');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.construct{
+  text-align: center;
+  margin-top: 40vh;
+}
+
+.icons a:link{
+  display: inline-block;
+  margin: 20px;
+}
+
+/* font-family: 'Playfair Display', serif; */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
