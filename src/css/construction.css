@@ -6,32 +6,32 @@ body{
     background-size: cover;
 }
 
-#nav{
-    font-family: 'Playfair Display', serif;
-}
-
-.inline-block {
-    display: inline-block;
-    margin: 5px;
-    padding: 3px;
-}
-
 .marg{
     transform: translateY(-25%);
 }
 
 .construct{
     text-align: center;
-    margin-top: 25vh;
+    margin-top: 5vh;
 }
 
 #uc{
-    font-size: 100px;
+    font-size: 90px;
+    margin-bottom: 30px;
 }
 
-#sub{
-    font-size: 40px;
+.sub{
+    font-size: 35px;
     font-style: italic;
+    margin: 15px;
+}
+
+.first{
+    margin-top: 100px;
+}
+
+.second{
+    margin-bottom: 90px;
 }
 
 .construct div:progress{

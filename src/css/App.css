@@ -8,3 +8,29 @@
     transform: rotate(360deg);
   }
 } */
+
+#nav{
+  font-family: 'Playfair Display', serif;
+}
+
+.inline-block {
+  display: inline-block;
+  margin: 3px;
+  padding: 3px;
+}
+
+/* .icons a:link{
+  display: inline-block;
+  margin: 20px;
+  margin-top: 25px;
+} */
+
+.icons{
+  position: fixed;
+  bottom: 30px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding:10px;
+}
