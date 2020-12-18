@@ -1,0 +1,15 @@
+.grid {
+    margin-bottom: 4.5rem!important;
+}
+
+.grid:nth-child(3n+1) {
+    clear: both;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    max-width: 20rem;
+}
