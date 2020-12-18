@@ -54,7 +54,7 @@ body{
 #bar {
     /* display: block; */
     height: 100%;
-    width: 15%;
+    width: 25%;
     /* this is where I control the % of progress bar */
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
