@@ -9141,6 +9141,11 @@ react-scripts@4.0.1:
   optionalDependencies:
     fsevents "^2.1.3"
 
+react-to-text@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-to-text/-/react-to-text-1.0.1.tgz#d487ebe19e8bc4700ccda2630c34ff00f1bcddd9"
+  integrity sha512-CzOhwQaSEWMKH9NiY+567BmNsIm9e26EgqD0ErvIVRSbBKVcwia2tbHk7+pMyKvJ6BSMICtfGvXanGwDVUduuA==
+
 react@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
