@@ -76,11 +76,11 @@ function App() {
       <div id='nav'>
         <NavLink to='/' exact className='inline-block'><img src={process.env.PUBLIC_URL + '/final.png'} alt='home' height='50' width='auto'/></NavLink>
         <h1 className='inline-block marg'>Danira Cortez</h1>
-        <NavLink to='/about'>About Me</NavLink>
-        <NavLink to='/projects' exact>Projects</NavLink>
-        <NavLink to='/resume' exact>Resume</NavLink>
-        <NavLink to='/blog' exact>Blog</NavLink>
-        <NavLink to='/contact' exact>Contact</NavLink>
+        <NavLink to='/contact' className='tabs'>Contact</NavLink>
+        <NavLink to='/blog' className='tabs'>Blog</NavLink>
+        <NavLink to='/resume' className='tabs'>Resume</NavLink>
+        <NavLink to='/projects' className='tabs'>Projects</NavLink>
+        <NavLink to='/about' className='tabs'>About Me</NavLink>
       </div>
       <Switch>
         <Route exact path='/'>

@@ -1,0 +1,13 @@
+#nav {
+    font-size: large;
+}
+
+.tabs {
+    font-size: 30px;
+    padding: 8px;
+    float: right;
+}
+
+a.tabs:hover{
+    color: gray;
+}
