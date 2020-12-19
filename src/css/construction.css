@@ -1,3 +1,13 @@
+.icons{
+    position: fixed;
+    bottom: 30px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding:10px;
+}
+
 body{
     background-image: url('../images/calgary.png');
     height: 100vh;
