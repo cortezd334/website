@@ -1,0 +1,17 @@
+.contact {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* next to ea other */
+
+.icons a:link{
+  /* display: inline-block; */
+  margin: 20px;
+  margin-top: 25px;
+}
+
