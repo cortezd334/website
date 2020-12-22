@@ -1,5 +1,6 @@
 @import './App.css';
 @import './nav.css';
+@import './home.css';
 @import './blog.css';
 @import './resume.css';
 @import './contact.css';
@@ -11,8 +12,19 @@
   text-align: center;
 }
 
+body {
+  margin: 0px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
 }
