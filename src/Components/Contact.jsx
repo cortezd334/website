@@ -7,7 +7,7 @@ import paper_plane from '../images/paper_plane.png';
 export default function Contact() {
     
     return(
-        <div className='contact'>
+        <div className='contact ta'>
             <h2>Contact Me!</h2>
             <p>Please feel free to reach out regarding any career opportunities, networking, or if you have any questions.</p>
             <h3>Email</h3>
