@@ -1,6 +1,8 @@
 import './css/App.css';
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+// import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
+//HashRouter instead of BrowserRouter?
 import Construction from './Components/Construction'
 import Home from './Components/Home'
 import About from './Components/About'
@@ -73,6 +75,7 @@ function App() {
 
     <>
     <Router>
+    {/* <Router basename={process.env.PUBLIC_URL}> if not using HashRouter */}
       <div id='nav'>
         <NavLink to='/' exact className='inline-block'><img src={process.env.PUBLIC_URL + '/final.png'} alt='home' height='50' width='auto'/></NavLink>
         <h1 className='inline-block marg'>Danira Cortez</h1>
