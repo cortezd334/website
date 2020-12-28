@@ -26,6 +26,7 @@ function App() {
     name: '',
     avtar: '',
     profileurl: ''
+    // blogurl: ''
   })
 
   const [blog, setBlog] = useState({
@@ -38,11 +39,12 @@ function App() {
     axios.get(mediumURL)
     .then(info => {
       console.log(info)
+      const title = info.data.feed.title;
       const avatar = info.data.feed.image;
       const profileLink = info.data.feed.link;
       const res = info.data.items;
+      // const blogLink = res.link
       const posts = res.filter(item => item.categories.length > 0);
-      const title = info.data.feed.title;
 
       setProfile({...profile, title: title, profileurl: profileLink, avtar: avatar})
       setBlog({item: posts, isLoading: false})
