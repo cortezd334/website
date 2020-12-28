@@ -11,10 +11,10 @@ import Resume from './Components/Resume'
 import Blog from './Components/Blog'
 import Contact from './Components/Contact'
 
-import linkedin from './images/linkedin.png';
-import github from './images/github.png';
-import medium from './images/medium.png';
-import paper_plane from './images/paper_plane.png';
+// import linkedin from './images/linkedin.png';
+// import github from './images/github.png';
+// import medium from './images/medium.png';
+// import paper_plane from './images/paper_plane.png';
 
 function App() {
   
@@ -26,7 +26,6 @@ function App() {
     name: '',
     avtar: '',
     profileurl: ''
-    // blogurl: ''
   })
 
   const [blog, setBlog] = useState({
@@ -43,11 +42,9 @@ function App() {
       const avatar = info.data.feed.image;
       const profileLink = info.data.feed.link;
       const res = info.data.items;
-      // const blogLink = res.link
-      const posts = res.filter(item => item.categories.length > 0);
 
       setProfile({...profile, title: title, profileurl: profileLink, avtar: avatar})
-      setBlog({item: posts, isLoading: false})
+      setBlog({item: res, isLoading: false})
     })
   }, [])
   
