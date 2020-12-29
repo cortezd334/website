@@ -9,8 +9,8 @@ export default function Blog({blog, profile}) {
     const haveBlogs = () => {
         if(blog.item) {
             return blog.item.map((post, index) => (
-                <div className='grid card' key={index}>
-                    <div className='card-image' style={{backgroundImage: `url(${post.thumbnail})`}}>
+                <div className='grid card ab shadow' key={index}>
+                    <div className='card-image tb' style={{backgroundImage: `url(${post.thumbnail})`}}>
                         <div className='authorimg'>
                             <a href={profile.profileurl} rel='noopener noreferrer' target='_blank' style={{backgroundImage: `url(${profile.avtar})`}}>
                                 Written By Danira

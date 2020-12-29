@@ -4,6 +4,7 @@
 @import './blog.css';
 @import './resume.css';
 @import './contact.css';
+@import './project.css';
 /* @import './construction.css'; */
 
 
@@ -28,6 +29,18 @@ code {
   transform: translateY(-50%);
 }
 
+.ab {
+  border-radius: 0.625rem;
+}
+
+.tb {
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+}
+
+.shadow {
+  box-shadow: 0 2px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
+}
 
 /* color: #dda455 !important; gold color */
 /* color: #bc9c22; gold from budgjet mom */
