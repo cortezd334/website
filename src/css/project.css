@@ -1,0 +1,36 @@
+.crd {
+    margin: 5rem;
+    max-width: 30rem;
+    height: 40rem;
+}
+
+.crdImg {
+    position: relative;
+    max-width: 30rem;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.crdBdy {
+    padding: 8px;
+}
+
+.crdTitle {
+    color: #3d5170 !important;
+    font-size: large;
+    text-decoration: none;
+}
+/* same as textfiorblue, need to change name and make same for cards */
+.crdTxt {
+    display: block;
+    font-size: 15px;
+}
+
+.lnk {
+    margin: 1rem;
+}
+
+.tech {
+    margin: 0;
+}
