@@ -6,7 +6,7 @@ export default function Construction() {
             <div className='construct'>
                 <h1 id='uc'>Under Construction</h1>
                 <div className='progress'>
-                    <div id='bar'>30%</div>
+                    <div id='bar'>60%</div>
                 </div>
                 <h3 className='sub first'>Working hard to bring you this website.</h3><h3 className='sub second'>In the meantime please watch this interview I had with 1000hires.</h3>
                 <div className='video'>
