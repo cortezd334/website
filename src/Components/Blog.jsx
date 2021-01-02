@@ -5,6 +5,7 @@ export default function Blog({blog, profile}) {
 
     console.log(blog)
     console.log(profile)
+    
 
     const haveBlogs = () => {
         if(blog.item) {
@@ -17,15 +18,20 @@ export default function Blog({blog, profile}) {
                             </a>
                         </div>
                     </div>
-                    <div className='card-body'>
-                        <h5 className='card-title'>
-                            {/* <Link to={post.title} className='textfiordblue'>{post.title}</Link> */}
-                            <a href={post.link} className='textfiordblue' rel="noreferrer" target='_blank'>{post.title}</a>
-
-                        </h5>
-                        <p className='cardText'>{`${ToText(post.description.substring(0, 1000))}...`}</p>
-                        <br/>
-                    </div>
+                    {post.link.length > 150? (
+                        <div className='card-body'>
+                            <h5 className='card-title'>
+                            <a href={post.link} className='textfiordblue' rel="noreferrer" target='_blank'>{post.title}</a></h5>
+                            <p className='cardText'>{`${ToText(post.description.substring(0, 250))}...`}</p>
+                        </div>
+                    ) : (
+                        <div className='card-body'>
+                            <h5 className='card-title'>
+                            <a href={post.link} className='textfiordblue' rel="noreferrer" target='_blank'>{post.title}</a></h5>
+                            <p className='cardText'>{`${ToText(post.description.substring(0, 365))}...`}</p>
+                        </div>
+                    )}
+                    
                 </div>
             ))
         }
