@@ -31,11 +31,11 @@ export default function Blog({blog, profile}) {
         }
     }
     return(
-        <>
+        <div className='blogs'>
             <h2>Blog Posts</h2>
             <div className='container'>
                 {blog.isLoading? 'nothing yet' : haveBlogs()}
             </div>
-        </>
+        </div>
     )
 }
