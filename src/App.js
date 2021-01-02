@@ -46,7 +46,7 @@ function App() {
       setProfile({...profile, title: title, profileurl: profileLink, avtar: avatar})
       setBlog({item: res, isLoading: false})
     })
-  }, [])
+  }, [axios])
   
   return (
     // <>
