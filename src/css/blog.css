@@ -1,13 +1,13 @@
-.blogs {
+/* .blogs {
     background-color: rgb(0, 0, 160);
     height: 100vh;
-}
+} */
 
 h2 {
     text-align: center;
     margin: 5rem;
     font-size: 70px;
-    color: #fff;
+    color: #bc9c22;
     font-family: 'Bad Script', cursive;
 }
 
@@ -75,7 +75,7 @@ h2 {
 .textfiordblue {
     /* color: #3d5170 !important; */
     font-family: 'Bad Script', cursive;
-    color: #bc9c22;
+    color:  #bc9c22;
     font-size: large;
 }
 

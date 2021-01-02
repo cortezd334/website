@@ -43,10 +43,8 @@ code {
 }
 
 .shadow {
-  box-shadow: 0 2px 0 #bc9c22, 0 4px 8px #bc9c22, 0 7px 40px #bc9c22;
-  /* box-shadow: 0 2px 0 #bc9c22, 0 4px 8px #bc9c22, 0 7px 40px rgb(200, 199, 177); */
-  /* box-shadow: 0 2px 0 #bc9c22, 0 4px 8px #bc9c22, 0 10px 10px #bc9c22, 0 7px 70px rgba(90, 97, 105, 0.1); */
-  /* box-shadow: 0 2px 0 gba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1); */
+  box-shadow: 0 1px 1px 0 rgba(90, 97, 105, 0.11), 0 2px 15px 0 #000080;
+  /* box-shadow: 0 2px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1); */
 }
 
 /* color: #dda455 !important; gold color */
