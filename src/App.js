@@ -17,15 +17,13 @@ import Contact from './Components/Contact'
 // import paper_plane from './images/paper_plane.png';
 
 function App() {
-  
-  const axios = require('axios').default
-  const mediumURL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@cortezd334"
 
+  const mediumURL = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@cortezd334"
+ 
   const [profile, setProfile] = useState({
-    title: '',
-    name: '',
-    avtar: '',
-    profileurl: ''
+    name: 'Danira Cortez',
+    profileImage: '',
+    profileUrl: ''
   })
 
   const [blog, setBlog] = useState({
@@ -33,21 +31,39 @@ function App() {
     isLoading: true,
     error: null
   })
-
+  
+  const axios = require('axios').default
+  
   useEffect(() => {
     axios.get(mediumURL)
     .then(info => {
-      console.log(info)
-      const title = info.data.feed.title;
-      const avatar = info.data.feed.image;
-      const profileLink = info.data.feed.link;
-      const res = info.data.items;
-
-      setProfile({...profile, title: title, profileurl: profileLink, avtar: avatar})
-      setBlog({item: res, isLoading: false})
+      const image = info.data.feed.image;
+      const link = info.data.feed.link;
+      const blogs = info.data.items;
+      const posts = blogs.filter(post => post.categories.length > 0)
+      
+      setProfile(p => ({...p, profileUrl: link, profileImage: image}))
+      setBlog({item: posts, isLoading: false})
     })
+    .catch(err => setBlog({error: err.message}))
   }, [axios])
   
+  // wrote a fetch option for blog post
+  // useEffect(() => {
+  //   fetch(mediumURL)
+  //   .then(res => res.json())
+  //   .then(info => {
+  //     const image = info.feed.image;
+  //     const link = info.feed.link;
+  //     const blogs = info.items;
+  //     const posts = blogs.filter(post => post.categories.length > 0)
+
+  //     setProfile(p => ({...p, profileUrl: link, profileImage: image}))
+  //     setBlog({item: posts, isLoading: false})
+  //   })
+  //   .catch(err => setBlog({error: err.message}))
+  // }, [])
+
   return (
     // <>
     // {/* comment this section in when updating Under Construction
