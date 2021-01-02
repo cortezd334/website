@@ -1,13 +1,17 @@
-/* @import './App.css';
+@import './App.css';
 @import './nav.css';
 @import './home.css';
 @import './blog.css';
 @import './resume.css';
 @import './contact.css';
-@import './project.css'; */
-@import './construction.css';
+@import './project.css';
+/* @import './construction.css'; */
 
-
+/* #root {
+  background-color: rgb(0, 0, 160);
+} */
+/* all backgrounds navy for now  */
+/* eventually want wht background w/ navy shape behind title */
 
 .res {
   text-align: center;
@@ -39,10 +43,14 @@ code {
 }
 
 .shadow {
-  box-shadow: 0 2px 0 rgba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1);
+  box-shadow: 0 2px 0 #bc9c22, 0 4px 8px #bc9c22, 0 7px 40px #bc9c22;
+  /* box-shadow: 0 2px 0 #bc9c22, 0 4px 8px #bc9c22, 0 7px 40px rgb(200, 199, 177); */
+  /* box-shadow: 0 2px 0 #bc9c22, 0 4px 8px #bc9c22, 0 10px 10px #bc9c22, 0 7px 70px rgba(90, 97, 105, 0.1); */
+  /* box-shadow: 0 2px 0 gba(90, 97, 105, 0.11), 0 4px 8px rgba(90, 97, 105, 0.12), 0 10px 10px rgba(90, 97, 105, 0.06), 0 7px 70px rgba(90, 97, 105, 0.1); */
 }
 
 /* color: #dda455 !important; gold color */
+/* color: #bc9c22; gold from budgjet mom */
 /* color: #bc9c22; gold from budgjet mom */
 /* color: #737373; gray for font */
 /* gold, white, gray, navy */
