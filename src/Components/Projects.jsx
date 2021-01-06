@@ -6,49 +6,52 @@ export default function Projects() {
     return(
         <>
         <h2>Projects</h2>
-        <div className='crd ab shadow'>
-            {/* <div className='card-image' style={{backgroundImage: MapView}}> */}
-            <div>
-                <img className='crdImg tb' src={mesa} alt='MesaAwaits'/>
-            </div>
-            <div className='crdBdy'>
-                <h5 className='crdTitle'>MesaAwaits</h5>
-                <div className='crdTxt'>
-                    <p>Booking application that displays restaurants according to user's location or their search input. </p>
+        <div className='container auto40'>
+            <div className='crd ab shadow'>
+                {/* <div className='card-image' style={{backgroundImage: MapView}}> */}
+                <div>
+                    <img className='crdImg tb' src={mesa} alt='MesaAwaits'/>
+                </div>
+                <div className='crdBdy'>
+                    <h5 className='crdTitle'>MesaAwaits</h5>
+                    <div className='crdTxt'>
+                        <p>Booking application that displays restaurants according to user's location or their search input. </p>
+                        <br/>
+                        <h3>Technologies</h3>
+                        <p className='tech'>React</p>
+                        <p className='tech'>JavaScript</p>
+                        <p className='tech'>Ruby on Rails</p>
+                        <p className='tech'>PostgrSQL</p>
+                    </div>
                     <br/>
-                    <h3>Technologies</h3>
-                    <p className='tech'>React</p>
-                    <p className='tech'>JavaScript</p>
-                    <p className='tech'>Ruby on Rails</p>
-                    <p className='tech'>PostgrSQL</p>
-                </div>
-                <br/>
-                <div className='crdLnk'>
-                    <a className='lnk' href="https://www.youtube.com/embed/WzNPjo4vRLk" rel="noreferrer" target='_blank'>DEMO</a>
-                    {/* make a pop-up window */}
-                    <a className='lnk' href="https://github.com/cortezd334/mesaawaits-frontend" rel="noreferrer" target='_blank'>Frontend REPO</a>
-                    <a className='lnk' href="https://github.com/cortezd334/mesaawaits-backend" rel="noreferrer" target='_blank'>Backend REPO</a>
+                    <div className='crdLnk'>
+                        <a className='lnk' href="https://www.youtube.com/embed/WzNPjo4vRLk" rel="noreferrer" target='_blank'>DEMO</a>
+                        {/* make a pop-up window */}
+                        <a className='lnk' href="https://github.com/cortezd334/mesaawaits-frontend" rel="noreferrer" target='_blank'>Frontend REPO</a>
+                        <a className='lnk' href="https://github.com/cortezd334/mesaawaits-backend" rel="noreferrer" target='_blank'>Backend REPO</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div className='crd ab shadow'>
-            <div>
-                <img className='crdImg tb' src={ohohoh} alt='OHOHOH'/>
-            </div>
-            <div className='crdBdy'>
-                <h5 className='crdTitle'>OHOHOH</h5>
-                <div className='crdTxt'>
-                    <p>Facilitates the pet adoption process for both users and agency. view pets, request to adopt, view adoption status, agency approve or deny, add pets, view adopted pets</p>
+            <div className='crd ab shadow'>
+                <div>
+                    <img className='crdImg tb' src={ohohoh} alt='OHOHOH'/>
+                </div>
+                <div className='crdBdy'>
+                    <h5 className='crdTitle'>OHOHOH</h5>
+                    <div className='crdTxt'>
+                        <p>Facilitates the pet adoption process for both users and agency. view pets, request to adopt, view adoption status, agency approve or deny, add pets, view adopted pets</p>
+                        <br/>
+                        <h3>Technologies</h3>
+                        <p className='tech'>JavaScript</p>
+                        <p className='tech'>Ruby on Rails</p>
+                        <p className='tech'>PostgrSQL</p>
+                    </div>
                     <br/>
-                    <p>Technologies</p>
-                    <p>JavaScript</p>
-                    <p>Ruby on Rails</p>
-                    <p>PostgrSQL</p>
-                </div>
-                <div className='crdLnk'>
-                    <a className='lnk' href="https://www.youtube.com/embed/Tctau4NhWMI" rel="noreferrer" target='_blank'>DEMO</a>
-                    {/* make a pop-up window */}
-                    <a className='lnk' href="https://github.com/cortezd334/OHOHOH" rel="noreferrer" target='_blank'>REPO</a>
+                    <div className='crdLnk'>
+                        <a className='lnk' href="https://www.youtube.com/embed/Tctau4NhWMI" rel="noreferrer" target='_blank'>DEMO</a>
+                        {/* make a pop-up window */}
+                        <a className='lnk' href="https://github.com/cortezd334/OHOHOH" rel="noreferrer" target='_blank'>REPO</a>
+                    </div>
                 </div>
             </div>
         </div>
