@@ -37,6 +37,7 @@ function App() {
   useEffect(() => {
     axios.get(mediumURL)
     .then(info => {
+      console.log(info)
       const image = info.data.feed.image;
       const link = info.data.feed.link;
       const blogs = info.data.items;

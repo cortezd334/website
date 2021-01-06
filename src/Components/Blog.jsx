@@ -3,6 +3,10 @@ import ToText from '../utils/ToText'
 
 export default function Blog({blog, profile}) {
 
+    function truncateText(text, start, len) {
+        return text.length > len ? `${text.slice(start, len)}...` : text;
+    }
+
     const haveBlogs = () => {
         if(blog.item) {
             return blog.item.map((post, index) => (
@@ -14,8 +18,8 @@ export default function Blog({blog, profile}) {
                     </div>
                     <div className='card-body'>
                         <h5 className='card-title'>
-                        <a href={post.link} className='postTitle' rel="noreferrer" target='_blank'>{post.title}</a></h5>
-                        <p className='cardText'>{`${ToText(post.description.substring(0, 1000))}...`}</p>
+                        <a href={post.link} className='postTitle' rel="noreferrer" target='_blank'>{truncateText(post.title, 0, 80)}</a></h5>
+                        <p className='cardText'>{truncateText(ToText(post.description), 0, 265)}</p>
                     </div>
                 </div>
             ))

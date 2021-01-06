@@ -73,15 +73,11 @@ h2 {
 }
 
 .postTitle {
-    color: #3d5170 !important;
+    /* color: #3d5170 !important;  */
     font-family: 'Bad Script', cursive;
-    /* color:  #bc9c22; */
+    color:  #bc9c22;
     font-size: large;
 }
-
-/* h5 {
-    margin-top: 30px;
-} */
 
 .card-body {
     padding: 8px;
@@ -90,24 +86,12 @@ h2 {
 .cardText {
     display: block;
     overflow: hidden;
-    max-height: 3.5em;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto;
+    max-height: 8em;
+    font-family: 'Josefin Slab', serif;
     font-weight: 500;
     color: #5a6169;
     font-size: 15px;
 }
-
-/* .cardText {
-    display: block;
-    /* or inline-block 
-    overflow: hidden;
-    max-height: 8em;
-    font-family: 'Josefin Slab', serif;
-    /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; 
-    font-weight: 500;
-    color: #5a6169;
-    font-size: 15px;
-} */
 
 .grid svg {
     display: inline-block;
