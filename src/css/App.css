@@ -1,13 +1,15 @@
+h2 {
+  text-align: center;
+  margin: 5rem;
+  font-size: 70px;
+  color: #bc9c22;
+  font-family: 'Bad Script', cursive;
+}
 
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+h3 {
+  font-size: 35px;
+  margin: 1rem 0rem;
+}
 
 #nav{
   font-family: 'Playfair Display', serif;
