@@ -11,9 +11,9 @@ export default function Contact() {
             <h2>Contact Me!</h2>
             <p>Please feel free to reach out regarding any career opportunities, networking, or if you have any questions.</p>
             <h3>Email</h3>
-            <p>cortedz334@gmail.com</p>
+            <a href={'mailto:cortezd334@gmail.com'} className='email'>cortedz334@gmail.com</a>
             <h3>Location</h3>
-            <p>Seattle</p>
+            <p>Seattle, WA</p>
             <br/>
             <h3>Find me on...</h3>
             <div className='icons'>
