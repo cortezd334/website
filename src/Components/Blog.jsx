@@ -29,7 +29,7 @@ export default function Blog({blog, profile}) {
     return(
         <div className='blogs'>
             <h2>Blog Posts</h2>
-            <div className='container'>
+            <div className='container auto30'>
                 {blog.isLoading? 'Loading...' : haveBlogs()}
             </div>
         </div>

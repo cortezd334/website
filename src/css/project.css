@@ -1,3 +1,7 @@
+.auto40{
+    grid-template-columns: repeat(auto-fit, 40rem);
+}
+
 .crd {
     margin: 5rem;
     max-width: 30rem;
@@ -17,18 +21,23 @@
 }
 
 .crdTitle {
-    color: #3d5170 !important;
-    font-size: large;
-    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+    color:  #bc9c22;
+    font-size: xx-large;
+    margin: 8px;
 }
 /* same as textfiorblue, need to change name and make same for cards */
 .crdTxt {
     display: block;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 500;
+    color: #5a6169;
     font-size: 15px;
 }
 
 .lnk {
     margin: 1rem;
+    color:  #bc9c22;
 }
 
 .tech {
