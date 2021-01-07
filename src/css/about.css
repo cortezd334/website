@@ -13,8 +13,8 @@
     text-align: justify;
 }
 
-.cancun {
-    float: right;
-    width: 40%;
+#can {
+    /* float: right; */
+    width: 50%;
     height: auto;
 }
