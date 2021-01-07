@@ -1,6 +1,20 @@
 .about {
+    display: flex;
+    flex-direction: row;
+}
+
+.des {
     font-family: 'Josefin Slab', serif;
     font-weight: 500;
     color: #5a6169;
     font-size: 18px;
+    width: 30rem;
+    margin-left: 10rem;
+    text-align: justify;
+}
+
+.cancun {
+    float: right;
+    width: 40%;
+    height: auto;
 }
