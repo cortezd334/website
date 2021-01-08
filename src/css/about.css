@@ -11,7 +11,7 @@
     top: 0;
     background: white;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -32,4 +32,5 @@
     position: sticky;
     position: -webkit-sticky;
     top: 30%;
+    
 }

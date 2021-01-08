@@ -3,7 +3,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* color:  #bc9c22; */
+    /* is there a way to make the icons gold? */
 }
+
 /* next to ea other */
 
 .icons a:link{
@@ -12,3 +15,9 @@
   margin-top: 25px;
 }
 
+.contact {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 500;
+  color: #5a6169;
+  font-size: 18px;
+}
