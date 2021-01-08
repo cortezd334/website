@@ -1,6 +1,18 @@
 .about {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+
+#name {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
 }
 
 .des {
@@ -17,4 +29,7 @@
     /* float: right; */
     width: 50%;
     height: auto;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 30%;
 }

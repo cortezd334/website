@@ -4,7 +4,7 @@ import swing from '../images/cancun.jpg'
 export default function About() {
     return(
         <div className='ta'>
-            <h2>Hi, I'm Danira Cortez</h2>
+            <h2 id='name'>Hi, I'm Danira Cortez</h2>
             <div className='about'>
                 <div className='des'>
                     <p>I'm a flight attendant turned Software Engineer.</p>
