@@ -1,11 +1,16 @@
 #nav {
     font-size: large;
+    /* font-family: 'Antro Vectra'; */
+    font-family: 'Bad Script', cursive;
+    color:  #bc9c22;
 }
 
 .tabs {
     font-size: 30px;
     padding: 8px;
     float: right;
+    font-family: 'Bad Script', cursive;
+    color:  #bc9c22;
 }
 
 a.tabs:hover{

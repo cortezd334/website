@@ -10,8 +10,12 @@ export default function Contact() {
         <div className='contact ta'>
             <h2>Contact Me!</h2>
             <p>Please feel free to reach out regarding any career opportunities, networking, or if you have any questions.</p>
+            <br/>
+            <br/>
+            <br/>
             <h3>Email</h3>
             <a href={'mailto:cortezd334@gmail.com'} className='email'>cortedz334@gmail.com</a>
+            <br/>
             <h3>Location</h3>
             <p>Seattle, WA</p>
             <br/>
