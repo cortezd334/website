@@ -1,8 +1,8 @@
 import React from 'react';
-import linkedin from '../images/linkedin.png';
-import github from '../images/github.png';
-import medium from '../images/medium.png';
-import paper_plane from '../images/paper_plane.png';
+import linkedin from '../images/gold_linkedin.png';
+import github from '../images/gold_github.png';
+import medium from '../images/gold_medium.png';
+import paper_plane from '../images/gold_plane.png';
 
 export default function Contact() {
     
