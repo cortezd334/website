@@ -1,8 +1,8 @@
 import React from 'react';
-import linkedin from '../images/gold_linkedin.png';
-import github from '../images/gold_github.png';
-import medium from '../images/gold_medium.png';
-import paper_plane from '../images/gold_plane.png';
+import linkedin from '../images/blinkedin.png';
+import github from '../images/bgithub.png';
+import medium from '../images/bmedium.png';
+import paper_plane from '../images/bplane.png';
 
 export default function Home() {
     return(
@@ -13,7 +13,7 @@ export default function Home() {
                     <h3 className='sub'>I'm a Software Engineer in the Seattle area.</h3>
                 </div>
             </div>
-            <div className='icons'>
+            <div className='hicons'>
                <a href='https://www.linkedin.com/in/daniracortez/' classname='icon' rel="noreferrer" target='_blank'><img src={linkedin} alt='Linkedin'/></a>
                <a href='https://github.com/cortezd334' classname='icon' rel="noreferrer" target='_blank'><img src={github} alt='Github'/></a>
                <a href='https://medium.com/@cortezd334' classname='icon' rel="noreferrer" target='_blank'><img src={medium} alt='Medium'/></a>
