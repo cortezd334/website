@@ -4,6 +4,7 @@
 }
 
 .react-pdf__Page__canvas {
-    border-style: ridge;
+    border: #bc9c22;
+    border-style: double;
     box-shadow: 10px 10px #000080, 0 0 20px 0 rgba(90, 97, 105, 0.25);
 }
