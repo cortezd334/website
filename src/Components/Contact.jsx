@@ -8,7 +8,7 @@ export default function Contact() {
     
     return(
         <div className='contact ta'>
-            <h2>Contact Me!</h2>
+            <h2>Contact Me</h2>
             <div className='info border shadow'>
                 <p id='reach'>Please feel free to reach out regarding any career opportunities, networking, or if you have any questions.</p>
                 <br/>
