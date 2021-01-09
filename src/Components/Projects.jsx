@@ -15,7 +15,7 @@ export default function Projects() {
                 <div className='crdBdy'>
                     <h3 className='crdTitle'>MesaAwaits</h3>
                     <div className='crdTxt'>
-                        <p>Booking application that displays restaurants according to user's location or their search input. </p>
+                        <p className='crdDes'>Restaurant booking application that utilizes Yelp, Google Maps, and Geolocation APIs, to display restaurants according to user's location or their search input. MesaAwaits combines a Rails API backend with a React frontend to provide users with the ability to favorite restaurants, book reservations, and edit their profiles. </p>
                         <br/>
                         <h5>Technologies</h5>
                         <p className='tech'>React</p>
@@ -39,7 +39,7 @@ export default function Projects() {
                 <div className='crdBdy'>
                     <h3 className='crdTitle'>OHOHOH</h3>
                     <div className='crdTxt'>
-                        <p>Facilitates the pet adoption process for both users and agency. view pets, request to adopt, view adoption status, agency approve or deny, add pets, view adopted pets</p>
+                        <p className='crdDes'>This single-page application, comprised of a JavaScript frontend and Rails API backend, facilitates the pet adoption process. An OHOHOH administrator can add new pets, approve or deny pending adoptions, and view a record of previously adopted pets. A user is able to view all pets, request to adopt a pet, view adoption status, and edit profile.</p>
                         <br/>
                         <h5>Technologies</h5>
                         <p className='tech'>JavaScript</p>
