@@ -1,19 +1,22 @@
 
-.home{
+/* .home{
     background-image: url('../images/me.png');
     height: 100vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .bigname {
     font-size: 200px;
-    margin: 20px;
+    margin: 25px;
+    color: #bc9c22;
+    font-family: 'Antro Vectra';
 }
 
 .sub{
     font-size: 35px;
     font-style: italic;
     margin: 15px;
+    color: #000080;
 }
