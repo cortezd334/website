@@ -24,7 +24,7 @@
     position: center;
     min-width: 0;
     max-width: 20rem;
-    height: 27rem;
+    height: auto;
     word-wrap: break-word;
     background-color: #fff;
     /* background-color: navy; */
@@ -72,9 +72,13 @@
     padding: 8px;
 }
 
+.card-title {
+    margin: 1rem 0rem;
+}
+
 .cardText {
     display: block;
-    overflow: hidden;
+    /* overflow: hidden; */
     max-height: 8em;
     font-family: 'Josefin Slab', serif;
     font-weight: 500;

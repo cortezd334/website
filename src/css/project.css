@@ -5,7 +5,7 @@
 .crd {
     margin: 5rem;
     max-width: 30rem;
-    height: 40rem;
+    height: auto;
 }
 
 .crdImg {
