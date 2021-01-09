@@ -10,7 +10,7 @@ export default function Blog({blog, profile}) {
     const haveBlogs = () => {
         if(blog.item) {
             return blog.item.map((post, index) => (
-                <div className='grid card ab shadow' key={index}>
+                <div className='grid card ab border shadow' key={index}>
                     <div className='card-image tb' style={{backgroundImage: `url(${post.thumbnail})`}}>
                         <div className='authorImg'>
                             <a href={profile.profileUrl} rel='noopener noreferrer' target='_blank' style={{backgroundImage: `url(${profile.profileImage})`}}></a>

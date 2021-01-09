@@ -13,7 +13,7 @@ export default function About() {
                     <p>When I'm not trying to solve a bug or exploring a new country, you can find me FaceTiming my family, trying a new restaurant, reading a book, hiking, or working out. I'm also a bit of a thrill-seeker, so it is possible to see me jump out of a plane or under the sea, as I am PADI certified!</p>
                 </div>
                 <div className='cancun'>
-                    <img className='can shadow' src={swing} alt='Danira'/>
+                    <img className='can border shadow' src={swing} alt='Danira'/>
                 </div>
             </div>
         </div>

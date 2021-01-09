@@ -19,5 +19,27 @@
   font-family: 'Josefin Slab', serif;
   font-weight: 500;
   color: #5a6169;
-  font-size: 18px;
+  font-size: 25px;
+}
+a.email {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 500;
+  color: #5a6169;
+  font-size: 25px;
+}
+
+#blue{
+  color: #000080;
+  margin-bottom: 0;
+}
+
+/* #reach {
+  padding: 30px
+} */
+
+.info {
+  display: inline-block;
+  max-width: 40%;
+  margin-bottom: 10rem;
+  padding: 5rem;
 }
