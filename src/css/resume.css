@@ -5,4 +5,5 @@
 
 .react-pdf__Page__canvas {
     border-style: ridge;
+    box-shadow: 10px 10px #000080, 0 0 20px 0 rgba(90, 97, 105, 0.25);
 }
