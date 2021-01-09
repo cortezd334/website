@@ -34,14 +34,14 @@ code {
   transform: translateY(-50%);
 }
 
-.ab {
+/* .ab {
   border-radius: 0.625rem;
 }
 
 .tb {
   border-top-left-radius: 0.625rem;
   border-top-right-radius: 0.625rem;
-}
+} */
 
 .shadow {
   box-shadow: 10px 10px #000080, 0 0 20px 0 rgba(90, 97, 105, 0.25);
