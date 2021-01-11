@@ -1,9 +1,8 @@
 import React from 'react';
 import { Document, Page, pdfjs } from 'react-pdf'
-import resume from '../utils/Danira_Cortez_Resume.pdf'
+import resume from '../utils/Resume.pdf'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
 
-// import { PDFViewer, Page, Document } from '@react-pdf/renderer';
 
 export default function Resume() {
 
