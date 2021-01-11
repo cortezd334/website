@@ -21,13 +21,18 @@
     color: #5a6169;
     font-size: 20px;
     width: 40%;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
     text-align: justify;
+    padding: 2rem;
+}
+
+.cancun {
+    width: 50%
 }
 
 .can {
     /* float: right; */
-    width: 50%;
+    width: 60%;
     height: auto;
     position: sticky;
     position: -webkit-sticky;
