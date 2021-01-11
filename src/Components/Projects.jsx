@@ -8,7 +8,6 @@ export default function Projects() {
         <h2 className='heading'>Projects</h2>
         <div className='container auto40'>
             <div className='crd ab border shadow'>
-                {/* <div className='card-image' style={{backgroundImage: MapView}}> */}
                 <div>
                     <img className='crdImg tb' src={mesa} alt='MesaAwaits'/>
                 </div>

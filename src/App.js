@@ -62,10 +62,7 @@ function App() {
   return (
     <>
     <Router>
-    {/* <Router basename={process.env.PUBLIC_URL}> */}
-       {/* if not using HashRouter */}
       <div id='nav'>
-        {/* <NavLink to='/' exact className='inline-block'><img src={test} alt='home' height='50' width='auto'/></NavLink> */}
         <NavLink to='/' exact className='inline-block'><img src={process.env.PUBLIC_URL + '/test.png'} alt='home' height='50' width='auto'/></NavLink>
         <h1 className='inline-block marg'>Danira Cortez</h1>
         <NavLink to='/contact' className='tabs'>Contact</NavLink>

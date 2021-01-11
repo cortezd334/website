@@ -35,20 +35,3 @@ export default function Blog({blog, profile}) {
         </div>
     )
 }
-
-
-
-
-// {post.link.length > 150? (
-//     <div className='card-body'>
-//         <h5 className='card-title'>
-//         <a href={post.link} className='postTitle' rel="noreferrer" target='_blank'>{post.title}</a></h5>
-//         <p className='cardText'>{`${ToText(post.description.substring(0, 250))}...`}</p>
-//     </div>
-// ) : (
-//     <div className='card-body'>
-//         <h5 className='card-title'>
-//         <a href={post.link} className='postTitle' rel="noreferrer" target='_blank'>{post.title}</a></h5>
-//         <p className='cardText'>{`${ToText(post.description.substring(0, 365))}...`}</p>
-//     </div>
-// )}
