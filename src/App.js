@@ -1,8 +1,6 @@
 import './css/App.css';
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Switch, Route, NavLink } from "react-router-dom";
-// import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
-//HashRouter instead of BrowserRouter?
+import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Home from './Components/Home'
 import About from './Components/About'
 import Projects from './Components/Projects'
