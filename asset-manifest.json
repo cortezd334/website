@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4706f486.chunk.css",
-    "main.js": "/static/js/main.0417fe9c.chunk.js",
-    "main.js.map": "/static/js/main.0417fe9c.chunk.js.map",
+    "main.js": "/static/js/main.58060d06.chunk.js",
+    "main.js.map": "/static/js/main.58060d06.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.242ed87f.js",
     "runtime-main.js.map": "/static/js/runtime-main.242ed87f.js.map",
     "static/js/2.0c6bba04.chunk.js": "/static/js/2.0c6bba04.chunk.js",
@@ -16,12 +16,14 @@
     "static/media/EmailWebsiteResume.dc8d59ec.pdf": "/static/media/EmailWebsiteResume.dc8d59ec.pdf",
     "static/media/MapView.c9a0a55b.png": "/static/media/MapView.c9a0a55b.png",
     "static/media/cancun.9d9e9e8e.jpg": "/static/media/cancun.9d9e9e8e.jpg",
-    "static/media/volun.21a33ff4.png": "/static/media/volun.21a33ff4.png"
+    "static/media/shoppies.f9adae6f.png": "/static/media/shoppies.f9adae6f.png",
+    "static/media/volun.21a33ff4.png": "/static/media/volun.21a33ff4.png",
+    "static/media/web.6da77703.png": "/static/media/web.6da77703.png"
   },
   "entrypoints": [
     "static/js/runtime-main.242ed87f.js",
     "static/js/2.0c6bba04.chunk.js",
     "static/css/main.4706f486.chunk.css",
-    "static/js/main.0417fe9c.chunk.js"
+    "static/js/main.58060d06.chunk.js"
   ]
 }
