@@ -1,6 +1,5 @@
 .container {
     display: grid;
-    height: 100vh;
     justify-content: center;
     justify-items: center;
     text-align: left;
@@ -27,11 +26,7 @@
     height: auto;
     word-wrap: break-word;
     background-color: #fff;
-    /* background-color: navy; */
-    /* background-color: #bc9c22; */
-    /* background-clip: border-box; */
     border: 1px solid rgba(0, 0, 0, .125);
-    /* border-radius: .25rem; */
     border: none; 
 }
 
@@ -78,28 +73,11 @@
 
 .cardText {
     display: block;
-    /* overflow: hidden; */
     max-height: 8em;
     font-family: 'Josefin Slab', serif;
     font-weight: 500;
     color: #5a6169;
     font-size: 15px;
 }
-
-/* .grid svg {
-    display: inline-block;
-    font-size: inherit;
-    height: 1em;
-    overflow: visible;
-    vertical-align: -0.125em;
-    width: 0.875em;
-    margin-right: 10px;
-} */
-
-/* .grid span {
-    font-weight: 500;
-    font-size: 15px;
-    display: inline;
-} */
 
 /* font-family: 'Gotcha', 'Roboto', 'Arial', sans-serif; flatiron sign in font */
