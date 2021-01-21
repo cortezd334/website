@@ -5,7 +5,7 @@
 .crd {
     margin: 5rem;
     max-width: 30rem;
-    height: auto;
+    /* height: auto; */
 }
 
 .crdImg {
@@ -36,6 +36,14 @@
 }
 .crdDes {
     margin: 0;
+}
+
+.special {
+    margin: 1rem;
+    color: #000080;
+    text-align: center;
+    font-family: 'Tangerine';
+    font-size: 29px;
 }
 
 .lnk {
