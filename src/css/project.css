@@ -5,13 +5,11 @@
 .crd {
     margin: 5rem;
     max-width: 30rem;
-    /* height: auto; */
 }
 
 .crdImg {
     position: relative;
     max-width: 30rem;
-    height: auto;
     background-size: cover;
     background-position: center;
 }
@@ -26,7 +24,7 @@
     font-size: xx-large;
     margin: 8px;
 }
-/* same as textfiorblue, need to change name and make same for cards */
+
 .crdTxt {
     display: block;
     font-family: 'Josefin Slab', serif;
@@ -53,4 +51,8 @@
 
 .tech {
     margin: 0;
+}
+
+.bottom {
+    margin-bottom: 30px;
 }

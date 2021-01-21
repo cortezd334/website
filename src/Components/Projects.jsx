@@ -7,7 +7,7 @@ import shoppies from '../images/shoppies.png'
 
 export default function Projects() {
     return(
-        <>
+        <div className='bottom'>
         <h2 className='heading'>Projects</h2>
         <div className='container auto40'>
             <div className='crd ab border shadow'>
@@ -119,6 +119,6 @@ export default function Projects() {
                 </div>
             </div>
         </div>
-        </>
+        </div>
     )
 }
