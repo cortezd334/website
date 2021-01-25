@@ -4,12 +4,37 @@ import ohohoh from '../images/ApproveOrDeny.png'
 import web from '../images/web.png'
 import volun from '../images/volun.png'
 import shoppies from '../images/shoppies.png'
+import lesson from '../images/lesson.png'
+import landing from '../images/Landing.png'
 
 export default function Projects() {
     return(
         <div className='bottom'>
         <h2 className='heading'>Projects</h2>
         <div className='container auto40'>
+            <div className='crd ab border shadow'>
+                <div>
+                    <img className='crdImg tb' src={landing} alt="Teacher's Pet"/>
+                </div>
+                <div className='crdBdy'>
+                    <h3 className='crdTitle'>Teacher's Pet</h3>
+                    <div className='crdTxt'>
+                        <p className='special'>TechTogether Seattle Hackathon 2021</p>
+                        <p className='crdDes'>Created an application designed to give teachers more control over their material, during this 50 hour hackathon.</p>
+                        <br/>
+                        <h5>Technologies</h5>
+                        <p className='tech'>React.js</p>
+                        <p className='tech'>Ruby on Rails</p>
+                        <p className='tech'>Microsoft Azure mySQL</p>
+                    </div>
+                    <br/>
+                    <div className='crdLnk'>
+                        <a className='lnk' href="https://www.youtube.com/embed/vd_0YPhAa5w" rel="noreferrer" target='_blank'>DEMO</a>
+                        {/* make a pop-up window */}
+                        <a className='lnk' href="https://github.com/cortezd334/teacherspet" rel="noreferrer" target='_blank'>REPO</a>
+                    </div>
+                </div>
+            </div>
             <div className='crd ab border shadow'>
                 <div>
                     <img className='crdImg tb' src={volun} alt='Voluntheroes'/>
