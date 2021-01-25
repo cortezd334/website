@@ -67,7 +67,7 @@ function App() {
         <NavLink to='/blog' className='tabs'>Blog</NavLink>
         <NavLink to='/resume' className='tabs'>Resume</NavLink>
         <NavLink to='/projects' className='tabs'>Projects</NavLink>
-        <NavLink to='/about' className='tabs'>About Me</NavLink>
+        <NavLink to='/about' className='tabs'>About</NavLink>
       </div>
       <Switch>
         <Route exact path='/'>
