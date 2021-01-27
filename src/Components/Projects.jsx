@@ -20,7 +20,7 @@ export default function Projects() {
                     <h3 className='crdTitle'>Teacher's Pet</h3>
                     <div className='crdTxt'>
                         <p className='special'>TechTogether Seattle Hackathon 2021</p>
-                        <p className='crdDes'>Created an application designed to give teachers more control over their material, during this 50 hour hackathon.</p>
+                        <p className='crdDes'>Created this application during TechTogether's 50-hour hackathon. Teacher's Pet gives teachers the power to create customized flashcards and a fun way to interact with their students. We incorporated an anxiety-reducing timer that shows a progress bar instead of a countdown. Additionally, Microsoft's Azure mySQL database was included to allow full CRUD functionality for students, lessons, and cards. This project was my first time working with cloud technology, and I look forward to learning more.</p>
                         <br/>
                         <h5>Technologies</h5>
                         <p className='tech'>React.js</p>
@@ -85,7 +85,7 @@ export default function Projects() {
                 <div className='crdBdy'>
                     <h3 className='crdTitle'>Portfolio</h3>
                     <div className='crdTxt'>
-                        <p className='crdDes'>Styled with custom CSS this website highlights Danira Cortez's projects and blog. You will also find a brief description of her and her contact information.</p>
+                        <p className='crdDes'>Styled with custom CSS, this website highlights Danira Cortez's projects and blog. You will also find a brief description of her and her contact information.</p>
                         <br/>
                         <h5>Technologies</h5>
                         <p className='tech'>React.js</p>
