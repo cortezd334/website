@@ -27,6 +27,9 @@ export default function Contact() {
                     <a href='https://github.com/cortezd334' rel="noreferrer" target='_blank' className='icon'><img src={github} alt='Github'/></a><br/>
                     <a href='https://medium.com/@cortezd334' rel="noreferrer" target='_blank' className='icon'><img src={medium} alt='Medium'/></a><br/>
                 </div>
+                <div className='video'>
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6742854464757080064?compact=1" height="284" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                </div>
             </div>
         </div>
     )
