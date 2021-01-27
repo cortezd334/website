@@ -69,6 +69,7 @@ export default function Projects() {
                         <br/>
                         <h5>Technologies</h5>
                         <p className='tech'>React.js</p>
+                        <p className='tech'>OMDB API</p>
                     </div>
                     <br/>
                     <div className='crdLnk'>
@@ -110,7 +111,10 @@ export default function Projects() {
                         <h5>Technologies</h5>
                         <p className='tech'>React.js</p>
                         <p className='tech'>Ruby on Rails</p>
-                        <p className='tech'>PostgrSQL</p>
+                        <p className='tech'>PostgreSQL</p>
+                        <p className='tech'>Google Maps JavaScript API</p>
+                        <p className='tech'>HTML Geolocation API</p>
+                        <p className='tech'>Yelp API</p>
                     </div>
                     <br/>
                     <div className='crdLnk'>
@@ -133,7 +137,7 @@ export default function Projects() {
                         <h5>Technologies</h5>
                         <p className='tech'>JavaScript</p>
                         <p className='tech'>Ruby on Rails</p>
-                        <p className='tech'>PostgrSQL</p>
+                        <p className='tech'>PostgreSQL</p>
                     </div>
                     <br/>
                     <div className='crdLnk'>

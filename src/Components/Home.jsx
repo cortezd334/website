@@ -13,6 +13,7 @@ export default function Home() {
                     <h3 className='sub'>Software Engineer in the Seattle area.</h3>
                 </div>
             </div>
+            {/* <button>Explore</button> */}
             <div className='hicons'>
                <a href='https://www.linkedin.com/in/daniracortez/' className='icon' rel="noreferrer" target='_blank'><img src={linkedin} alt='Linkedin'/></a>
                <a href='https://github.com/cortezd334' className='icon' rel="noreferrer" target='_blank'><img src={github} alt='Github'/></a>
