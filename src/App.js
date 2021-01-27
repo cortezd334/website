@@ -6,7 +6,7 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import Resume from './Components/Resume'
 import Blog from './Components/Blog'
-import Media from './Components/Blog'
+import Media from './Components/Media'
 import Contact from './Components/Contact'
 
 function App() {
