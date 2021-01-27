@@ -14,10 +14,10 @@ export default function Home() {
                 </div>
             </div>
             <div className='hicons'>
-               <a href='https://www.linkedin.com/in/daniracortez/' classname='icon' rel="noreferrer" target='_blank'><img src={linkedin} alt='Linkedin'/></a>
-               <a href='https://github.com/cortezd334' classname='icon' rel="noreferrer" target='_blank'><img src={github} alt='Github'/></a>
-               <a href='https://medium.com/@cortezd334' classname='icon' rel="noreferrer" target='_blank'><img src={medium} alt='Medium'/></a>
-               <a href={'mailto:cortezd334@gmail.com'} classname='icon'><img src={paper_plane} alt='Email'/></a>
+               <a href='https://www.linkedin.com/in/daniracortez/' className='icon' rel="noreferrer" target='_blank'><img src={linkedin} alt='Linkedin'/></a>
+               <a href='https://github.com/cortezd334' className='icon' rel="noreferrer" target='_blank'><img src={github} alt='Github'/></a>
+               <a href='https://medium.com/@cortezd334' className='icon' rel="noreferrer" target='_blank'><img src={medium} alt='Medium'/></a>
+               <a href={'mailto:cortezd334@gmail.com'} className='icon'><img src={paper_plane} alt='Email'/></a>
             </div>
         </>
     )

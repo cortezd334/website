@@ -25,7 +25,7 @@ export default function Projects() {
                         <h5>Technologies</h5>
                         <p className='tech'>React.js</p>
                         <p className='tech'>Ruby on Rails</p>
-                        <p className='tech'>Microsoft Azure mySQL</p>
+                        <p className='tech'>Azure mySQL</p>
                     </div>
                     <br/>
                     <div className='crdLnk'>

@@ -6,6 +6,7 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import Resume from './Components/Resume'
 import Blog from './Components/Blog'
+import Media from './Components/Blog'
 import Contact from './Components/Contact'
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
         <NavLink to='/' exact className='inline-block'><img src={process.env.PUBLIC_URL + '/test.png'} alt='home' height='50' width='auto'/></NavLink>
         <h1 className='inline-block marg'>Danira Cortez</h1>
         <NavLink to='/contact' className='tabs'>Contact</NavLink>
+        <NavLink to='/media' className='tabs'>Media</NavLink>
         <NavLink to='/blog' className='tabs'>Blog</NavLink>
         <NavLink to='/resume' className='tabs'>Resume</NavLink>
         <NavLink to='/projects' className='tabs'>Projects</NavLink>
@@ -81,6 +83,9 @@ function App() {
         </Route>
         <Route path='/resume'>
           <Resume/>
+        </Route>
+        <Route exact path='/media'>
+          <Media/>
         </Route>
         <Route path='/blog'>
           <Blog blog={blog} profile={profile}/>
