@@ -7,6 +7,7 @@ import Projects from './Components/Projects'
 import Resume from './Components/Resume'
 import Blog from './Components/Blog'
 import Media from './Components/Media'
+import Technologies from './Components/Technologies'
 import Contact from './Components/Contact'
 
 function App() {
@@ -69,6 +70,7 @@ function App() {
         <NavLink to='/blog' className='tabs'>Blog</NavLink>
         <NavLink to='/resume' className='tabs'>Resume</NavLink>
         <NavLink to='/projects' className='tabs'>Projects</NavLink>
+        <NavLink to='/technologies' className='tabs'>Technologies</NavLink>
         <NavLink to='/about' className='tabs'>About</NavLink>
       </div>
       <Switch>
@@ -77,6 +79,9 @@ function App() {
         </Route>
         <Route path='/about'>
           <About/>
+        </Route>
+        <Route path='/technologies'>
+          <Technologies/>
         </Route>
         <Route path='/projects'>
           <Projects/>
