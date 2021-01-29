@@ -70,7 +70,7 @@ function App() {
         <NavLink to='/blog' className='tabs'>Blog</NavLink>
         <NavLink to='/resume' className='tabs'>Resume</NavLink>
         <NavLink to='/projects' className='tabs'>Projects</NavLink>
-        <NavLink to='/technologies' className='tabs'>Technologies</NavLink>
+        {/* <NavLink to='/technologies' className='tabs'>Technologies</NavLink> */}
         <NavLink to='/about' className='tabs'>About</NavLink>
       </div>
       <Switch>
