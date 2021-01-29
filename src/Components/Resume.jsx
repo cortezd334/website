@@ -9,7 +9,7 @@ export default function Resume() {
     return(
         <div className='res'>
             <h2 className='heading'>Resume</h2>
-            <a href="https://onedrive.live.com/embed?cid=D3D5958DCD632659&resid=D3D5958DCD632659%2161963&authkey=ANfuogTD86LmIQw&em=2" rel="noreferrer" target='_blank'>
+            <a href="https://onedrive.live.com/View.aspx?resid=D3D5958DCD632659!61963&authkey=!ANfuogTD86LmIQw" rel="noreferrer" target='_blank'>
                 <Document
                     file={resume}
                     onLoadError={console.error}
